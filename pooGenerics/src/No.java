@@ -1,5 +1,4 @@
 public class No<T> {
-
     T valor;
     No<T> proximo;
 

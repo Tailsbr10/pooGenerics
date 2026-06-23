@@ -1,6 +1,5 @@
 @SuppressWarnings("unchecked")
 public class ListaVetor<T> implements Lista<T> {
-
     private T[] itens;
     private int size;
 
