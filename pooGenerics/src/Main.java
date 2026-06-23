@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Lista<String> lista = new ListaVetor<>();
+        Lista<String> lista = new ListaEncadeada<>();
 
         lista.add("Senhor dos aneis: a sociedade do anel");
         lista.add("Senhor dos aneis: as duas torres");
@@ -14,5 +14,6 @@ public class Main {
         System.out.println("Max: " + ListaUtil.max(lista));
         System.out.println("Min: " + ListaUtil.min(lista));
         System.out.println("Count: " + ListaUtil.count(lista));
+        System.out.println(lista.get(1));
     }
 }
